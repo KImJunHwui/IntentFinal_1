@@ -15,7 +15,7 @@ class ThirdActivity : AppCompatActivity() {
             val inputMessage = newNickNameEdt.text.toString()
             val resultIntent = Intent()
             resultIntent.putExtra("newnick", inputMessage)
-//          아래 19번 줋 생각을 못해냄
+//          아래 19번 Line 생각을 못해냄
             setResult(RESULT_OK, resultIntent)
             finish()
 
